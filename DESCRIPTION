@@ -1,0 +1,20 @@
+Package: lapmapr
+Type: Package
+Title: Calculate SNP Posterior Inclusion Probability in Multi-SNP Models
+Version: 0.0.0.9000
+Author: Kevin Walters
+Maintainer: Kevin Walters <k.walters@sheffield.ac.uk>
+Description: The functions in this package calculate the posterior inclusion 
+    probability for each SNP in a multi-SNP model. The user has the choice of 
+    using the Laplace or Gaussian prior. 
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    gdata (>= 2.18.0),
+    gtools (>= 3.9.2),
+    mvtnorm (>= 1.1-3),
+    utils (>= 4.1.2)
+RoxygenNote: 7.2.0
+Depends: 
+    R (>= 2.10)
